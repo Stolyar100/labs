@@ -25,9 +25,9 @@ while 1:
     except ValueError:
         print('ENTER TWO NUMBERS!')
 
-g_now = (int(str(last_numbers)[0]) + 11) % 16
+g_now = (int(str(last_numbers)[0]) + 13) % 16
 g_last = 0
-z_now = (int(str(last_numbers)[1]) + 12) % 16
+z_now = (int(str(last_numbers)[1]) + 14) % 16
 z_last = 0
 x = 0
 
